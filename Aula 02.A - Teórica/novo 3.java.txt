@@ -1,0 +1,65 @@
+//PSVITA
+psv = new videogame() {
+	String psv.marca = "Sony";
+	String psv.modelo = "PSVITA";
+	String psv.cor = "Laranja";
+	Double psv.Tela = 5.0;
+	Boolean psv.ligado = false;
+	
+	psv.ligar();
+	psv.desbloquear();
+	psv.jogar();
+}
+
+//ROTEADOR
+rt = new roteador() {
+	String rt.marca = "TPLink";
+	String rt.modelo = "Archer C80";
+	String rt.cor = "Preto";
+	Int rt.antenas = 4;
+	Double rt.velocidade = 300.0;
+	Boolean rt.ligado = true;
+	
+	rt.acessar();
+	rt.configurar();
+	rt.desligar();
+}
+
+---------------------------------
+
+//FAZER ALMOÇO
+coz = new almoco() {
+	
+	String coz.alimento = "Arroz";
+	String coz.alimento = "Feijao";
+	String coz.alimento = "Salada";
+	Int coz.panelas = 6;
+	Int coz.pratos = 4;
+	
+	coz.cozinhar();
+	coz.esquentar();
+	coz.misturar();
+}
+
+//ESTUDAR
+est = new estudar() {
+	
+	String est.dispositivo = "Notebook";
+	Int est.dispositivoDisponivel = 1;
+	Boolean est.tempo = "true";
+	Boolean est.online = true;
+	
+	est.assistirAula();
+	est.prestarAtencao();
+	est.navegar();
+	est.praticar();
+}
+
+
+
+
+
+
+
+
+
